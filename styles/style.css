@@ -27,7 +27,7 @@
   height: 32px;
 }
 
-.logo_place-header {
+.logo_place_header {
   background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 34px;
@@ -60,7 +60,7 @@
   z-index: 2;
 }
 
-.header__subtitle-link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -71,6 +71,7 @@
   bottom: 0px;
   width: 765px;
   height: 608px;
+  object-fit: cover;
   z-index: 1;
 }
 
@@ -112,7 +113,7 @@
   min-width: 784px;
 }
 
-.two-columns__main-text-paragraph {
+.two-columns__paragraph {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -121,11 +122,11 @@
   padding: 0px 0px 30px 0px;
 }
 
-.two-columns__main-text-paragraph:last-child {
+.two-columns__paragraph:last-child {
   padding: 0;
 }
 
-.two-columns__main-text-span-accent {
+.two-columns__span-accent {
   font-weight: 600;
 }
 
@@ -192,7 +193,7 @@
 .feynman {
   position: relative;
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   background-image: url(../images/feynman.png);
   background-position: left bottom;
   background-size: 867px 637px;
@@ -303,7 +304,7 @@
   text-align: left;
 }
 
-.logo_place-footer {
+.logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
 }
 
