@@ -5,6 +5,7 @@
   text-align: left;
   margin: 0;
   padding: 0;
+  align-self: flex-start;
   text-decoration: none;
   color: #2f80ed;
   transition: opacity 3s;
