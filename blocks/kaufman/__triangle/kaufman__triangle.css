@@ -5,9 +5,7 @@
   background-size: contain;
   top: 0px;
   right: -210px;
-  padding: 0;
-  margin: 0;
   width: 877px;
   height: 877px;
-  z-index: -1;
+  z-index: 1;
 }
